@@ -15,8 +15,8 @@
  * for digits.
  *
  * Submission details
- *   - Runtime: 171 ms, faster than 25.52% of other JS submissions
- *   - Memory Usage: 46.5 MB, less than 5.25% of other JS submissions
+ *   - Runtime: 84 ms, faster than 99.64% of other JS submissions
+ *   - Memory Usage: 47.2 MB, less than 5.12% of other JS submissions
  *
  * Complexity analysis
  *   - O(N) time | where N is the number of array elements

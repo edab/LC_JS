@@ -18,8 +18,8 @@
  * Result -> [5,6,7,1,2,3,4]
  *
  * Submission details
- *   - Runtime: 151 ms, faster than 40.34% of other JS submissions
- *   - Memory: 52.9 MB, less than 5.00% of other JS submissions
+ *   - Runtime: 96 ms, faster than 97.51% of other JS submissions
+ *   - Memory: 53.4 MB, less than 5.06% of other JS submissions
  *
  * Complexity analysis
  *   - O(N) time | where N is the number of array elements
