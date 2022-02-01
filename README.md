@@ -17,3 +17,4 @@ My solution for LeetCode problems using JavaScript.
 | 557 | 4 | Two Pointers, String | [Reverse Words in a String III*](problems/LC557.js) | Easy
 | 876 | 5 | Two Pointers, Linked List | [Middle of the Linked List](problems/LC876.js) | Easy
 |  19 | 5 | Two Pointers, Linked List | [Remove Nth Node From End of List](problems/LC19.js) | Medium
+|   3 | 6 | Hash Table, String | [Longest Substring Without Repeating Characters](problems/LC3.js) | Medium
