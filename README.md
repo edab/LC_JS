@@ -18,3 +18,4 @@ My solution for LeetCode problems using JavaScript.
 | 876 | 5 | Two Pointers, Linked List | [Middle of the Linked List](problems/LC876.js) | Easy
 |  19 | 5 | Two Pointers, Linked List | [Remove Nth Node From End of List](problems/LC19.js) | Medium
 |   3 | 6 | Hash Table, String | [Longest Substring Without Repeating Characters](problems/LC3.js) | Medium
+| 567 | 7 | Hash Table, Two Pointers, String | [Permutation in String](problems/LC567.js) | Medium
