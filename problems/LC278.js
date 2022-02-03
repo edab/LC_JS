@@ -24,8 +24,8 @@
  * bad versions can appear in two different places.
  *
  * Submission details
- *   - Runtime: 73 ms, faster than 65.74% of other JS submissions
- *   - Memory Usage: 42.2 MB, less than 5.49% of other JS submissions
+ *   - Runtime: 72 ms, faster than 79.47% of other JS submissions
+ *   - Memory Usage: 42 MB, less than 5.69% of other JS submissions
  *
  * Complexity analysis
  *   - O(log N) time | where N is the number of array elements
