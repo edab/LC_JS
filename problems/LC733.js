@@ -16,12 +16,12 @@
  * Return the modified image after performing the flood fill.
  *
  * Notes:
- * - m == image.length
- * n == image[i].length
- * 1 <= m, n <= 50
- * 0 <= image[i][j], newColor < 216
- * 0 <= sr < m
- * 0 <= sc < n
+ *   - m == image.length
+ *   - n == image[i].length
+ *   - 1 <= m, n <= 50
+ *   - 0 <= image[i][j], newColor < 216
+ *   - 0 <= sr < m
+ *   - 0 <= sc < n
  *
  * Difficulty: Easy
  * Time Submitted: 02/04/2022 15:34
