@@ -19,63 +19,33 @@
  *   - Memory: 44.3 MB, less than 18.36% of other JS submissions
  *
  * Complexity analysis
- *   - O(M*N) time | where M and N are the input grid dimensions
+ *   - O(N+M) time | where N and M are the length of the two input lists.
  *   - O(1) space
  *
  */
 
 /**
- * @param {number[][]} grid
- * @return {number}
- */
-var orangesRotting = function(grid) {
+  * Definition for singly-linked list.
+  * function ListNode(val, next) {
+  *     this.val = (val===undefined ? 0 : val)
+  *     this.next = (next===undefined ? null : next)
+  * }
+  */
+ /**
+  * @param {ListNode} list1
+  * @param {ListNode} list2
+  * @return {ListNode}
+  */
+ var mergeTwoLists = function(list1, list2) {
+   if (list1 == null) return list2;
+   if (list2 == null) return list1;
 
-  let minute = 0;
-  let freshOranges = 0;
-  let queue = [];
-  const rows = grid.length;
-  if (rows === 0)
-    return grid;
-  const cols = grid[0].length;
-  const dir = [[-1, 0], [1, 0], [0, 1], [0, -1]];
+   if (list1.val < list2.val) {
+     list1.next = mergeTwoLists(list1.next, list2);
+     return list1;
+   } else {
+     list2.next = mergeTwoLists(list1, list2.next);
+     return list2;
+   }
 
-  for (let r = 0; r < rows; r++) {
-    for (let c = 0; c < cols; c++ ) {
-      if (grid[r][c] === 1) freshOranges++;
-      if (grid[r][c] === 2) queue.push([r, c]);
-    }
-  }
-
-  while (queue.length > 0 && freshOranges > 0) {
-
-    const queueLength = queue.length;
-
-    for (let i = 0; i < queueLength; i++) {
-
-      const [r,c] = queue.shift();
-
-      for ( let i = 0; i < dir.length; i++ ) {
-
-        let newR = r + dir[i][0];
-        let newC = c + dir[i][1];
-
-        if (( newR < 0 ) || ( newR >= rows )) continue;
-        if (( newC < 0 ) || ( newC >= cols )) continue;
-        if ( grid[newR][newC] !== 1 ) continue;
-
-        grid[newR][newC] = 2;
-        queue.push([newR, newC]);
-        freshOranges--;
-
-      }
-
-    }
-
-    minute++;
-
-  }
-
-  return freshOranges === 0? minute : -1;
-
-
-};
+ };
