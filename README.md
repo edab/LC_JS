@@ -23,5 +23,6 @@ My solution for LeetCode problems using JavaScript.
 | 695 | 7 | Array, Depth-First Search, Breadth-First Search | [Max Area of Island](problems/LC695.js) | Medium
 | 617 | 8 | Tree, Depth-First Search, Breadth-First Search | [Merge Two Binary Trees](problems/LC617.js) | Easy
 | 116 | 8 | Linked List, Tree | [Populating Next Right Pointers in Each Node](problems/LC116.js) | Medium
-| 542 | 9 | Array Dynamic Programming | [01 Matrix](problems/LC542.js) | Medium
-| 944 | 9 | Array Breadth-First Search | [Rotting Oranges](problems/LC994.js) | Medium
+| 542 | 9 | Array, Dynamic Programming | [01 Matrix](problems/LC542.js) | Medium
+| 944 | 9 | Array, Breadth-First Search | [Rotting Oranges](problems/LC994.js) | Medium
+| 21 | 10 | Linked List, Recursion | [Merge Two Sorted Lists](problems/LC21.js) | Easy

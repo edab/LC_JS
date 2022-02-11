@@ -1,27 +1,22 @@
 /**
- * #994 - Rotting Oranges
+ * #21 - Merge Two Sorted Lists
  *
- * You are given an m x n grid where each cell can have one of three values:
+ * You are given the heads of two sorted linked lists list1 and list2.
  *
- *  - 0 representing an empty cell
- *  - 1 representing a fresh orange
- *  - 2 representing a rotten orange
+ * Merge the two lists in a one sorted list. The list should be made by
+ * splicing together the nodes of the first two lists.
  *
- * Every minute, any fresh orange that is 4-directionally adjacent to a rotten
- * orange becomes rotten.
+ * Return the head of the merged linked list.
  *
- * Return the minimum number of minutes that must elapse until no cell has a
- * fresh orange. If this is impossible, return -1.
- *
- * Difficulty: Medium
- * Time Submitted: 02/13/2022 21:30
+ * Difficulty: Easy
+ * Time Submitted: 02/13/2022 21:41
  *
  * Notes
- * The solution is based on the _Multiple Head BFS_ technique.
+ * The solution is based on the _Recursion_ technique.
  *
  * Submission details
- *   - Runtime: 73 ms, faster than 96.20% of other JS submissions
- *   - Memory: 44.3 MB, less than 36.01% of other JS submissions
+ *   - Runtime: 100 ms, faster than 53.65% of other JS submissions
+ *   - Memory: 44.3 MB, less than 18.36% of other JS submissions
  *
  * Complexity analysis
  *   - O(M*N) time | where M and N are the input grid dimensions
