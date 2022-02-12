@@ -24,3 +24,4 @@ My solution for LeetCode problems using JavaScript.
 | 617 | 8 | Tree, Depth-First Search, Breadth-First Search | [Merge Two Binary Trees](problems/LC617.js) | Easy
 | 116 | 8 | Linked List, Tree | [Populating Next Right Pointers in Each Node](problems/LC116.js) | Medium
 | 542 | 9 | Array Dynamic Programming | [01 Matrix](problems/LC542.js) | Medium
+| 944 | 9 | Array Breadth-First Search | [Rotting Oranges](problems/LC994.js) | Medium
