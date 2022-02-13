@@ -26,4 +26,5 @@ My solution for LeetCode problems using JavaScript.
 | 542 | 9 | Array, Dynamic Programming | [01 Matrix](problems/LC542.js) | Medium
 | 944 | 9 | Array, Breadth-First Search | [Rotting Oranges](problems/LC994.js) | Medium
 | 21 | 10 | Linked List, Recursion | [Merge Two Sorted Lists](problems/LC21.js) | Easy
-| 206 | 10 | Linked List, Recursion | [Reverse Linked List](LC206.js) | Easy
+| 206 | 10 | Linked List, Recursion | [Reverse Linked List](problems/LC206.js) | Easy
+| 77 | 11 | Array, Backtracking | [Combinations](problems/LC77.js) | Medium
