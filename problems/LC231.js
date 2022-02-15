@@ -9,7 +9,7 @@
  * Time Submitted: 02/17/2022 14:24
  *
  * Notes
- * The solution is based on the _Iterative_ technique.
+ * The solution is based on the _Bit Manipulation_ technique.
  *
  * Submission details
  *   - Runtime: 64 ms, faster than 99.57% of other JS submissions

@@ -28,4 +28,5 @@ My solution for LeetCode problems using JavaScript.
 | 21   | 10 | Linked List, Recursion           | [Merge Two Sorted Lists](problems/LC21.js)                        | Easy
 | 206  | 10 | Linked List, Recursion           | [Reverse Linked List](problems/LC206.js)                          | Easy
 | 77   | 11 | Array, Backtracking              | [Combinations](problems/LC77.js)                                  | Medium
-| 231 | 13 | Math, Bit Manipulation, Recursion | [Power of Two](problems/LC231.js)
+| 231 | 13 | Math, Bit Manipulation, Recursion | [Power of Two](problems/LC231.js) | Easy
+| 191 | 13 | Bit Manipulation | [Number of 1 Bits](problems/LC191.js) | Easy
