@@ -30,3 +30,4 @@ My solution for LeetCode problems using JavaScript.
 | 77   | 11 | Array, Backtracking              | [Combinations](problems/LC77.js)                                  | Medium
 | 231 | 13 | Math, Bit Manipulation, Recursion | [Power of Two](problems/LC231.js) | Easy
 | 191 | 13 | Bit Manipulation | [Number of 1 Bits](problems/LC191.js) | Easy
+| 190 | 14 | Divide and Conquer, Bit Manipulation | [Reverse Bits](problems/LC190.js) | Easy
